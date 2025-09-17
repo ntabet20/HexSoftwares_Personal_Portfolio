@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Salomon Ntabet's personal portfolio showcasing experience in web development">
+    <link rel="stylesheet" href="style.css">
+    <title>Salomon Ntabet | Web Developer</title>
+</head>
+<body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <!-- Header section -->
+    <header>
+        <!-- Navigation part -->
+        <nav class="navbar" aria-label="Main navigation">
+            <div class="nav-container">
+                <a href="#" class="logo" aria-label="Home">SN</a>
+                <ul class="nav-list">
+                    <li><a href="#bio">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main content -->
+     <main id="main-content">
+
+        <!-- Biography section -->
+        <section id="bio" class="bio-section">
+            <div class="bio-container">
+                <div class="bio-image">
+                    <img src="images/salopier.jpg" alt="Professional photo of Salomon Ntabet" class="profile-image">
+                </div>
+                <div class="bio-text">
+                    <p class="intro">Hi, I'm</p>
+                    <h1>
+                        <span>Salomon Ntabet</span>
+                        I craft Web-based Software solutions
+                    </h1>
+                    <p>
+                        I'm a web developer who loves to sit at the intersection of design and function. For the past 3 years, I have been bringing mini and intermediate
+                        project ideas to life on the web.
+                    </p>
+                    <p>
+                        My journey started with a curiosity about how websites work, and it evolved into a passion for building applications that are both powerful under
+                        the hood and delightful for usage. My toolkit includes HTML, CSS, JS and back-end technologies like python (django) to ensure a seamless experience
+                        from start to finish.
+                    </p>
+                    <p>
+                        I am always excited to tackle new challenges. So, take a look at my work and if you think we'd be a good fit, I'd love to hear from you
+                    </p>
+                    <div class="cta-buttons">
+                        <a href="#contact" class="btn primary-btn">Get in Touch</a>
+                        <a href="#experience" class="btn secondary-btn">View Experience</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills section (with Technical + Soft subsections) -->
+        <section id="skills" class="skills-section">
+            <h2>Skills</h2>
+
+            <div class="skills-container">
+                <!-- Technical Skills -->
+                <div class="technical-skills">
+                    <h3>Technical Skills</h3>
+                    <div class="skill-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon">💻</div>
+                            <h4>HTML/CSS</h4>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">🔄</div>
+                            <h4>JavaScript</h4>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">☕</div>
+                            <h4>Java</h4>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">🐍</div>
+                            <h4>Python</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Soft Skills -->
+                <div class="soft-skills">
+                    <h3>Soft Skills</h3>
+                    <div class="skill-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon">🤝</div>
+                            <h4>Communication</h4>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">🧠</div>
+                            <h4>Problem Solving</h4>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">⏱️</div>
+                            <h4>Time Management</h4>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">💡</div>
+                            <h4>Creativity</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Experience section -->
+        <section id="experience" class="experience-section">
+            <h2>Experience</h2>
+
+            <div class="experience-timeline">
+                <div class="experience-item">
+                    <h3>Freelance Web Developer</h3>
+                    <span class="experience-duration">2022 – Present</span>
+                    <p>Developed and deployed responsive websites and web applications for small businesses and personal projects using HTML, CSS, JavaScript, and Django.</p>
+                </div>
+
+                <div class="experience-item">
+                    <h3>Open Source Contributor</h3>
+                    <span class="experience-duration">2023 – Present</span>
+                    <p>Contributed to open source projects on GitHub by fixing bugs, improving documentation, and implementing new features while learning best practices in collaborative coding.</p>
+                </div>
+            </div>
+        </section>
+
+         <!-- Contact section -->
+         <section id="contact" class="section contact">
+                <h2>Get In Touch</h2>
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <p>Feel free to reach out for collaboration or just to say hello!</p>
+                        <div class="contact-method">
+                            <span>📧</span>
+                            <a href="mailto:ntabetsalomon@gmail.com">ntabetsalomon@gmail.com</a>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/salomon-pierre-ntabet/"  target="_blank" aria-label="LinkedIn">LinkedIn</a>
+                            <a href="https://github.com/ntabet20/" target="_blank" aria-label="GitHub">GitHub</a>
+                            <a href="https://x.com/ntabet_p/" target="_blank" aria-label="Twitter">Twitter</a>
+                        </div>
+                    </div>
+                    <form action="mailto:ntabetsalomon@gmail.com" method="post" enctype="text/plain" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="john.doe@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message" rows="4" placeholder="Let's connect!" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary-btn">Send Message</button>
+                    </form>
+                </div>
+        </section>
+         
+     </main>
+
+     <footer>
+        <p>&copy; 2025 Salomon Ntabet. All rights reserved.</p>
+     </footer>
+</body>
+</html> 
