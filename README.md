@@ -58,6 +58,3 @@ open index.html
   * **LinkedIn**: [https://www.linkedin.com/in/salomon-pierre-ntabet/](https://www.linkedin.com/in/salomon-pierre-ntabet/)
 
 <!-- end list -->
-
-```
-```
