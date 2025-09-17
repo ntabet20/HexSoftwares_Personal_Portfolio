@@ -1,4 +1,3 @@
-```md
 ### Portfolio Website
 
 This is the personal portfolio website for Salomon Ntabet, built from the ground up using clean, accessible HTML and modern CSS. The site is designed to showcase my skills, experience, and projects in a professional and user-friendly manner.
